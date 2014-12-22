@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.garutsmartcity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/grt"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" android:debuggable="true">
+        <activity
+            android:name="com.example.garutsmartcity.splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="wisata"></activity>
+        <activity android:name="pilih_oleh"></activity>
+         <activity android:name="rumah_sakit"></activity>
+        <activity android:name="polisi"></activity>
+        <activity android:name="tentang"></activity>
+        <activity android:name="bantuan"></activity>
+        <activity android:name="cipanas"></activity>
+        <activity android:name="talaga_bodas"></activity>
+        <activity android:name="darajat"></activity>
+        <activity android:name="papandayan"></activity>
+        <activity android:name="bagendit"></activity>
+        <activity android:name="cangkuang"></activity>
+        <activity android:name="santolo"></activity>
+        <activity android:name="cijeruk"></activity>
+        <activity android:name="karang_paranje"></activity>
+        <activity android:name="rancabuaya"></activity>
+        <activity android:name="curug_orok"></activity>
+        <activity android:name="arum_jeram_cimanuk"></activity>
+        <activity android:name="alamat_toko"></activity>
+        <activity android:name="buah_tangan"></activity>
+        <activity android:name="jeruk"></activity>
+        <activity android:name="dodol"></activity>
+        <activity android:name="chocodot"></activity>
+        <activity android:name="jaket"></activity>
+        <activity android:name="kerupuk"></activity>
+    </application>
+
+</manifest>
